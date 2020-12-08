@@ -1,3 +1,5 @@
+source 'https://github.com/ArvinHD/PrivateCocoaSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 target 'PrivateCocoaModuleOne_Tests' do
   pod 'PrivateCocoaModuleOne', :path => '../'
