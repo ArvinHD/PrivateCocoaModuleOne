@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'PrivateCocoaModuleOne/Classes/**/*'
+
+  s.dependency 'PrivateCocoaModuleTwo'
   
   # s.resource_bundles = {
   #   'PrivateCocoaModuleOne' => ['PrivateCocoaModuleOne/Assets/*.png']
