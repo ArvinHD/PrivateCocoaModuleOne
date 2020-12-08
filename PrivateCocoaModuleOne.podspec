@@ -31,8 +31,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'PrivateCocoaModuleOne/Classes/**/*'
-  s.source 'https://github.com/ArvinHD/PrivateCocoaSpec.git'
-  s.source 'https://github.com/CocoaPods/Specs.git'
   s.dependency 'PrivateCocoaModuleTwo'
   
   # s.resource_bundles = {
